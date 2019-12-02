@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>About</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Edie Ye Atom Feed" />
+	<link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+	<!--<link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">-->
+	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
+	<link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+
+
+
+		<title>About</title>
+		<meta charset="utf-8" />
 </head>
+<body>
+	<section id="sidebar">
+		<figure id="user_logo">
+            <a href=""><div class="logo">&nbsp;</div></a>
+		</figure>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Edie Ye </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-    <h1 class="entry-title">About</h1>
-    
-    <p>I'm a BSc. graduate from the <a href="https://www.ubc.ca/">University of British Columbia</a> with a focus in computer science and am based in <a href="https://en.wikipedia.org/wiki/Vancouver">Vancouver, Canada</a>. I began my career as an engineering intern at <a href="https://www.terramera.com/">Terramera</a> in 2017 and in 2018, I worked on <a href="http://docs.netapp.com/sgws-111/index.jsp">Storagegrid 11.1</a> at <a href="https://www.netapp.com/us/index.aspx">Netapp</a> and on <a href="https://help.sap.com/viewer/product/SAP_CRYSTAL_REPORTS_FOR_ENTERPRISE/4.2/en-US">Crystal Reports for Enterprise 4.2</a> at SAP Vancouver. Currently, I am a full time developer at <a href="https://www.ze.com/">ZE Power Group</a> in <a href="https://en.wikipedia.org/wiki/Richmond,_British_Columbia">Richmond, BC</a>. I am an avid hiker, a huge fan of <a href="https://www.imdb.com/title/tt0386676/">The Office</a>, and a recently turned blogger. If you want to talk more about The Office, about any of my previous experiences, or have any general questions, feel free to connect with me!</p>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+		<div class="user_meta">
+            <h1 id="user"><a href="" class="">Edie Ye</a></h1>
+			<h2></h2>
+			<p class="bio">Formerly a child. Currently a software developer. Aspiring to be a lottery winner.</p>
+			<ul>
+					<li><a href="/pages/about.html">about</a></li>
+					<li><a href="mailto:edie_ye@hotmail.com">mail</a></li>
+					<li><a href="https://github.com/edieye">github</a></li>
+					<li><a href="http://www.linkedin.com/in/edie-ye">linkedin</a></li>
+					<li><a href="http://www.instagram.com/edieyee">instagram</a></li>
+			</ul>
+		</div>
+		<footer>
+			<address>
+				Powered by <a href="http://pelican.notmyidea.org/">Pelican</a>,
+		                theme by <a href="https://github.com/wting/pelican-svbtle">wting</a>.
+			</address>
+		</footer>
+	</section>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+	<section id="posts">
+	<header>
+		<h1>Edie Ye's blog</h1>
+		<h3>
+			<script type="text/javascript">
+				var currentDate = new Date();
+				var day = currentDate.getDate();
+				var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+				var month = monthNames[currentDate.getMonth()].toUpperCase();
+				var year = currentDate.getFullYear();
+				document.write(month + " " + day + ", " + year);
+			</script>
+		</h3>
+	</header>
+	<article>
+		<h1 id="title">
+			<a href="/about/" rel="bookmark">About</a>
+		</h1>
+		<p>I'm a BSc. graduate from the <a href="https://www.ubc.ca/">University of British Columbia</a> with a focus in computer science and am based in <a href="https://en.wikipedia.org/wiki/Vancouver">Vancouver, Canada</a>. I began my career as an engineering intern at <a href="https://www.terramera.com/">Terramera</a> in 2017 and in 2018, I worked on <a href="http://docs.netapp.com/sgws-111/index.jsp">Storagegrid 11.1</a> at <a href="https://www.netapp.com/us/index.aspx">Netapp</a> and on <a href="https://help.sap.com/viewer/product/SAP_CRYSTAL_REPORTS_FOR_ENTERPRISE/4.2/en-US">Crystal Reports for Enterprise 4.2</a> at SAP Vancouver. Currently, I am a full time developer at <a href="https://www.ze.com/">ZE Power Group</a> in <a href="https://en.wikipedia.org/wiki/Richmond,_British_Columbia">Richmond, BC</a>. I am an avid hiker, a huge fan of <a href="https://www.imdb.com/title/tt0386676/">The Office</a>, and a recently turned blogger. If you want to talk more about The Office, about any of my previous experiences, or have any general questions, feel free to connect with me!</p>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+	</article>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+	<footer>
+		<a href="/" class="button_accent">&larr;&nbsp;&nbsp;&nbsp;Back to blog</a>
+	</footer>
+	</section>
 
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-153651252-1");
+			pageTracker._trackPageview();
+		} catch(err) {}</script>
 </body>
 </html>
