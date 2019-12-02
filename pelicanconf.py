@@ -2,15 +2,18 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Edie Ye'
-SITENAME = u'Edie Ye'
-SITEURL = ''
-
+# Author
+AUTHOR = 'Edie Ye'
+AUTHOR_BIO = 'Formerly a child. Currently a software developer. Aspiring to be a lottery winner.'
+SITEURL = 'http://edieye.ca'
 PATH = 'content'
+#READERS = {'html': None}
 
-TIMEZONE = 'Europe/Paris'
-
-DEFAULT_LANG = u'en'
+# Basic
+TIMEZONE = 'America/Vancouver'
+DEFAULT_LANG = 'en'
+THEME = './themes/pelican-svbtle'
+GOOGLE_ANALYTICS = 'UA-153651252-1'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,15 +22,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# URLs
+PAGE_URL = 'about/'
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# LINKS
+LINKS = (('about', '/pages/about.html'),
+         ('mail', 'mailto:edie_ye@hotmail.com'),
+         ('github', 'https://github.com/edieye'),
+         ('linkedin','http://www.linkedin.com/in/edie-ye'),
+         ('instagram', 'http://www.instagram.com/edieyee')
+)
 
 DEFAULT_PAGINATION = 10
 
