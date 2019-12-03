@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Edie Ye'
 AUTHOR_BIO = 'Formerly a child. Currently a software developer. Aspiring to be a lottery winner.'
 SITENAME = 'Just For Fun'
-SITEURL = 'http://edieye.ca'
+SITEURL = 'edieye.ca'
 PATH = 'content'
 #READERS = {'html': None}
 
@@ -23,7 +23,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# URLs
+
+
+# STATIC PATHS
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
 PAGE_URL = 'about/'
 
 # LINKS
