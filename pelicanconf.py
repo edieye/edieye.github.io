@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 # Author
 AUTHOR = 'Edie Ye'
 AUTHOR_BIO = 'Formerly a child. Currently a software developer. Aspiring to be a lottery winner.'
+SITENAME = 'Just For Fun'
 SITEURL = 'http://edieye.ca'
 PATH = 'content'
 #READERS = {'html': None}
