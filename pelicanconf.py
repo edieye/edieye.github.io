@@ -8,13 +8,13 @@ AUTHOR_BIO = 'Formerly a child. Currently a software developer. Aspiring to be a
 SITENAME = 'Just For Fun'
 SITEURL = 'edieye.ca'
 PATH = 'content'
-#READERS = {'html': None}
 
 # Basic
 TIMEZONE = 'America/Vancouver'
 DEFAULT_LANG = 'en'
 THEME = './themes/pelican-svbtle'
 GOOGLE_ANALYTICS = 'UA-153651252-1'
+DISQUS_SITENAME = 'edieye-ca'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,8 +22,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-
 
 # STATIC PATHS
 STATIC_PATHS = ['images', 'extra/CNAME']
