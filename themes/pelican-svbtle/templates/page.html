@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block meta %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+{% endblock %}
+{% block title %}{{ page.title }}{%endblock%}
+{% block content %}
+	<article>
+		<h1 id="title">
+			<a href="{{ SITEURL }}/{{ page.url }}" rel="bookmark">{{ page.title }}</a>
+		</h1>
+		{{ page.content }}
+
+	</article>
+
+	<footer>
+		<a href="{{ SITEURL }}/" class="button_accent">&larr;&nbsp;&nbsp;&nbsp;Back to blog</a>
+	</footer>
+{% endblock %}
