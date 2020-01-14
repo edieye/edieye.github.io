@@ -33,8 +33,8 @@ PAGE_URL = 'about/'
 LINKS = (('about', '/pages/about.html'),
          ('mail', 'mailto:edie_ye@hotmail.com'),
          ('github', 'https://github.com/edieye'),
-         ('linkedin','http://www.linkedin.com/in/edie-ye'),
-         ('instagram', 'http://www.instagram.com/edieyee')
+         ('linkedin','https://www.linkedin.com/in/edie-ye'),
+         ('instagram', 'https://www.instagram.com/edieyee')
 )
 
 DEFAULT_PAGINATION = 10
