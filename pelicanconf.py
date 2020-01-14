@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 # Author
 AUTHOR = 'Edie Ye'
-AUTHOR_BIO = 'Formerly a child. Currently a software developer. Aspiring to be a lottery winner.'
+AUTHOR_BIO = 'Software developer from Vancouver, BC.'
 SITENAME = 'Just For Fun'
 SITEURL = 'edieye.ca'
 PATH = 'content'
