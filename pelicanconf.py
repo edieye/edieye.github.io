@@ -3,10 +3,11 @@
 from __future__ import unicode_literals
 
 # Author
-AUTHOR = 'Edie Ye'
+AUTHOR = 'EDIE YE'
 AUTHOR_BIO = 'Software developer from Vancouver, BC.'
 SITENAME = 'Just For Fun'
 SITEURL = 'edieye.ca'
+#SITEURL = 'http://localhost:8000'
 PATH = 'content'
 
 # Basic
