@@ -38,8 +38,8 @@ section#posts a.button_accent:active{color:#fff;background-color:#0e94ec;outline
 /*section#posts p.paginator{margin:0;padding:0;min-height:10%;width:50%;border-top:#eee 1px solid} */
 section#posts article{margin:0;padding:0% 0% 5% 4%;position:relative;font-size:14px;line-height:175%;overflow-x:hidden;overflow-y:hidden;width:55%}section#posts article #title{font-family:'Freight-Sans-Pro','Proxima Nova','Open Sans','Lato',sans-serif;margin:5% 0 0;padding:0;color:#000}section#posts article #title a{border:none}
 @media (max-width: 780px){section#posts article{width:85%}}
-section#posts article #article_meta{margin:0% 0 0% 0%;padding:0%;font-size:14px;line-height:16px}
-section#posts article #article_meta a{margin:0% 0% 0% 1%;padding:0% 1% 0% 0%}
+section#posts article #article_meta{margin:0% 0% 0% 0%;padding:0%;font-size:14px;line-height:16px}
+section#posts article #article_meta a{margin:0% 0% 0% 1%;line-height:175%}
 section#posts #comments{margin:0;padding:3% 3% 3% 3%;position:relative;border-top:#eee 1px solid;font-size:14px;line-height:25px;min-height:20%}section#posts #comments h2{color:#000}
 section#posts #disqus_thread{margin:0;padding:2% 2%;width:70%}
 @media (max-width: 780px){section#posts #disqus_thread{width:85%}}
