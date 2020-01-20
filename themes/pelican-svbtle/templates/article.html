@@ -12,10 +12,10 @@
 		{{ article.content }}
 
 		<div id="article_meta">
-			{% if not article.category == 'posts' %}
+			<!-- {% if not article.category == 'posts' %}
 				Category:
 					<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-			{% endif %}
+			{% endif %} -->
 			{% if article.tags %}
 				<br />Tags:
 				{% for tag in article.tags %}
