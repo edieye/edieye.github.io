@@ -38,7 +38,7 @@ section#posts a.button_accent:active{color:#fff;background-color:#0e94ec;outline
 
 /* @media (max-width: 480px){section#posts dl ol .entry-content{width:75%}}
 @media (max-width: 480px){section#posts #disqus_thread{width:75%}}*/
-@media (max-width: 480px){section#posts article #article_meta a{margin:0% 0% 0% 2%;line-height:200%}
+/*@media (max-width: 480px){section#posts article #article_meta a{margin:0% 0% 0% 2%;line-height:200%}*/
 /*@media (max-width: 480px){section#posts article{width:75%}} */
 /*section#posts p.paginator{margin:0;padding:0;min-height:10%;width:50%;border-top:#eee 1px solid} */
 section#posts article{margin:0;padding:0% 0% 5% 4%;position:relative;font-size:14px;line-height:175%;overflow-x:hidden;overflow-y:hidden;width:55%}section#posts article #title{font-family:'Freight-Sans-Pro','Proxima Nova','Open Sans','Lato',sans-serif;margin:5% 0 0;padding:0;color:#000}section#posts article #title a{border:none}
