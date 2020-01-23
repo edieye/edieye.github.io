@@ -13,7 +13,8 @@ section#sidebar p.bio{padding:0 8% 0 10%;font-size:14px}
 /*section#sidebar ul{margin:50px 0 0 0;padding:0 0 0 40px}*/
 section#sidebar li{margin:0;padding:8% 0 10% 0;clear:both;display:block;float:none}section#sidebar li a{color:#999;font-size:14px;line-height:100%;border:2px solid #eee;border-radius:30%%;border-radius:35px;-moz-border-radius:35px;-webkit-border-radius:35px;padding:3% 6%}
 /*section#sidebar footer{margin:0;padding:0;position:absolute;bottom:45px;width:30%;text-align:center;color:#999;font-size:14px;font-weight:300;line-height:15px}*/
-section#posts{top:0;margin:0 0 0 18%;padding:0 0 10% 0;min-height:50%;min-width:50%;height:100%;border-left:#eee 1px solid;background-color:rgba(255,255,255,0.9);position:relative;z-index:1}section#posts h1{margin:24px 0 16px;color:#000;font-size:24px;line-height:32px}
+section#posts{top:0;margin:0 0 0 18%;padding:0 0 10% 0;min-height:50%;min-width:50%;height:100%;border-left:#eee 1px solid;background-color:rgba(255,255,255,0.9);position:relative;z-index:1}
+section#posts h1{max-width:80%;margin:5% 0 5%;color:#000;font-size:200%;line-height:150%}
 /*section#posts h2{margin:24px 0 14px;color:#000;font-size:14px;line-height:26px}*/
 section#posts h3{margin:3% 0 3%;color:#000}
 
