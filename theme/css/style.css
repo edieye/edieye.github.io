@@ -5,8 +5,8 @@ a:hover{color:#0e94ec;outline:0}
 a:active{color:#0e94ec;outline:0}
 a:focus{outline:thin dotted}
 .clearfix{content:".";display:block;height:0;clear:both}
-/**@media (max-width: 780px){section#sidebar{display: none;}}**/
-section#sidebar{width:20%;position:fixed;top:0;left:0;bottom:0;right:auto;min-height:80%;z-index:0}section#sidebar figure{margin:10% 10%;width:30%;height:15%}
+@media (max-width: 780px){section#sidebar{display: none;}}
+section#sidebar{width:20%;position:fixed;top:0;left:0;bottom:0;right:5%:auto;min-height:80%;z-index:0}section#sidebar figure{margin:10% 10%;width:30%;height:15%}
 section#sidebar h1{margin:0 5% 5% 0;padding:0 0 0 10%;display:block;font-family:'Proxima Nova','Open Sans','Lato',sans-serif;font-weight:900;font-size:34px;line-height:50%}section#sidebar h1 a{border:none}
 section#sidebar h2{margin:0 5% 0 0;padding:0 0 0 10%;font-size:14px;font-weight:300;line-height:100%}
 section#sidebar p.bio{padding:0 8% 0 10%;font-size:14px}
