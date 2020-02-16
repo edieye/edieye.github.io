@@ -18,11 +18,12 @@ GOOGLE_ANALYTICS = 'UA-153651252-1'
 #DISQUS_SITENAME = 'edieye-ca'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 # STATIC PATHS
 STATIC_PATHS = ['images', 'extra/CNAME']
@@ -33,6 +34,7 @@ PAGE_URL = 'about/'
 # LINKS
 LINKS = (('about', '/pages/about.html'),
          ('mail', 'mailto:edie_ye@hotmail.com'),
+         ('RSS', "feeds/all.atom.xml"),
          ('github', 'https://github.com/edieye'),
          ('linkedin','https://www.linkedin.com/in/edie-ye'),
          ('instagram', 'https://www.instagram.com/edieyee')
