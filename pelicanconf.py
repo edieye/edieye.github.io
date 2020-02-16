@@ -15,7 +15,7 @@ TIMEZONE = 'America/Vancouver'
 DEFAULT_LANG = 'en'
 THEME = './themes/pelican-svbtle'
 GOOGLE_ANALYTICS = 'UA-153651252-1'
-DISQUS_SITENAME = 'edieye-ca'
+#DISQUS_SITENAME = 'edieye-ca'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
