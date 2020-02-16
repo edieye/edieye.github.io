@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /*.js*
 Allow: /*.css*
+allow: /*.png*
+allow: /*.jpg*
