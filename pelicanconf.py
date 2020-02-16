@@ -22,8 +22,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # STATIC PATHS
 STATIC_PATHS = ['images', 'extra/CNAME']
