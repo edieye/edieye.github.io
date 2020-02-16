@@ -34,7 +34,6 @@ PAGE_URL = 'about/'
 # LINKS
 LINKS = (('about', '/pages/about.html'),
          ('mail', 'mailto:edie_ye@hotmail.com'),
-         ('RSS', "feeds/all.atom.xml"),
          ('github', 'https://github.com/edieye'),
          ('linkedin','https://www.linkedin.com/in/edie-ye'),
          ('instagram', 'https://www.instagram.com/edieyee')
