@@ -6,8 +6,8 @@ from __future__ import unicode_literals
 AUTHOR = 'EDIE YE'
 AUTHOR_BIO = 'Software developer from Vancouver, BC.'
 SITENAME = 'Just For Fun'
-SITEURL = 'edieye.ca'
-#SITEURL = 'http://localhost:8000'
+#SITEURL = 'edieye.ca'
+SITEURL = 'http://localhost:8000'
 PATH = 'content'
 
 # Basic
@@ -16,6 +16,10 @@ DEFAULT_LANG = 'en'
 THEME = './themes/pelican-svbtle'
 GOOGLE_ANALYTICS = 'UA-153651252-1'
 #DISQUS_SITENAME = 'edieye-ca'
+
+# Set article output path 
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
 
 # Feed generation is usually not desired when developing
 TRANSLATION_FEED_ATOM = None
