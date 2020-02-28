@@ -9,7 +9,9 @@
 	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
 	<link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css">
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
-
+	{% if GOOGLE_ADS %}
+		<script data-ad-client="{{GOOGLE_ADS}}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	{% endif %}
 	{% if FEED_ATOM %}
 		<link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} ATOM Feed" />
 	{% endif %}
