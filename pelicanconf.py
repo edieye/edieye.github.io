@@ -46,5 +46,13 @@ LINKS = (('about', '/pages/about.html'),
 
 DEFAULT_PAGINATION = 10
 
+# robots.txt and ads.txt for google ad sense
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/ads.txt']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/ads.txt': {'path': 'ads.txt'}
+}
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
