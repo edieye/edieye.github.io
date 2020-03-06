@@ -31,10 +31,9 @@ TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 # STATIC PATHS
-STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt', 'extra/favicon.ico', 'extra/ads.txt']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/robots.txt', 'extra/ads.txt']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/robots.txt': {'path': 'robots.txt'},
-                       'extra/favicon.ico': {'path': 'favicon.ico'},
                        'extra/ads.txt': {'path': 'ads.txt'}}
 
 PAGE_URL = 'about/'
