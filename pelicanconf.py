@@ -6,7 +6,7 @@ from __future__ import unicode_literals
 AUTHOR = 'EDIE YE'
 AUTHOR_BIO = 'Software developer from Vancouver, BC.'
 SITENAME = 'Just For Fun'
-SITEURL = 'edieye.ca'
+SITEURL = 'https://edieye.ca'
 #SITEURL = 'http://localhost:8000'
 PATH = 'content'
 
