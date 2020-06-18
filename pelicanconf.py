@@ -39,7 +39,8 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
 PAGE_URL = 'about/'
 
 # LINKS
-LINKS = (('about', '/pages/about.html'),
+LINKS = (('subscribe', 'http://eepurl.com/gWZVk1'),
+         ('about', '/pages/about.html'),
          ('mail', 'mailto:edie_ye@hotmail.com'),
          ('github', 'https://github.com/edieye'),
          ('linkedin','https://www.linkedin.com/in/edie-ye')
