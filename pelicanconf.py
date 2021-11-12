@@ -15,7 +15,7 @@ TIMEZONE = 'America/Vancouver'
 DEFAULT_LANG = 'en'
 THEME = './themes/pelican-svbtle'
 GOOGLE_ANALYTICS = 'UA-153651252-1'
-GOOGLE_ADS = 'ca-pub-4873880863658950'
+#GOOGLE_ADS = 'ca-pub-4873880863658950'
 #DISQUS_SITENAME = 'edieye-ca'
 
 # Set article output path
@@ -39,7 +39,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
 PAGE_URL = 'about/'
 
 # LINKS
-LINKS = (('subscribe', 'http://eepurl.com/gWZVk1'),
+LINKS =  #(('subscribe', 'http://eepurl.com/gWZVk1'),
          ('about', '/pages/about.html'),
          ('mail', 'mailto:edie_ye@hotmail.com'),
          ('github', 'https://github.com/edieye'),
